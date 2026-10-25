@@ -1,0 +1,118 @@
+# GOOGLE PLAY STORE DATA ANALYTICS USING PYTHON
+
+## 1. Project Title
+
+Learn to Build Real-Time Google Play Store Data Analytics Using Python
+
+## 2. Abstract
+
+This project focuses on analyzing Google Play Store application data using Python. An interactive dashboard was developed using Streamlit and Plotly to explore application ratings, categories, sizes, installation counts, reviews, update activity, and pricing. The dashboard helps users understand patterns in the dataset through interactive charts and filters.
+
+## 3. Objectives
+
+* Analyze Google Play Store application data.
+* Clean and prepare data for analysis.
+* Explore app ratings, sizes, reviews, installs, and categories.
+* Compare free and paid applications.
+* Identify application size outliers.
+* Visualize app update activity and category-level patterns.
+* Develop an interactive dashboard using Streamlit.
+
+## 4. Technologies Used
+
+* **Python:** Data processing and analysis.
+* **Pandas:** Data cleaning, transformation, and aggregation.
+* **NumPy:** Numerical operations.
+* **Plotly:** Interactive charts and visualizations.
+* **Streamlit:** Interactive web dashboard.
+* **Excel/CSV:** Dataset storage and input.
+
+## 5. Dataset Description
+
+The dataset contains Google Play Store application information, including:
+
+* App name
+* Category
+* Rating
+* Number of reviews
+* App size
+* Installs
+* Application type
+* Price
+* Content rating
+* Genres
+* Last updated date
+* Current version
+* Minimum Android version
+
+The dataset contains 10,841 records before data cleaning.
+
+## 6. Methodology
+
+The project follows these steps:
+
+1. Load the dataset into Python.
+2. Inspect the columns, data types, and missing values.
+3. Clean and convert relevant fields, including app size, installs, and price.
+4. Prepare the data for analysis.
+5. Apply interactive filters to explore selected applications.
+6. Generate visualizations using Plotly.
+7. Display the results through a Streamlit dashboard.
+
+## 7. Dashboard Modules
+
+### Task 1: Density Analysis
+
+Explores the relationship between application size and ratings, rating distributions, category distributions, and unusually large applications.
+
+### Task 2: Sunburst Analysis
+
+Displays hierarchical relationships between app categories, application types, and rating groups.
+
+### Task 3: Calendar Heatmap
+
+Visualizes application update activity over time.
+
+### Task 4: Monthly Trends
+
+Examines monthly update activity, cumulative activity, and related trend indicators.
+
+### Task 5: Category Heatmap
+
+Compares application categories using available metrics and an adjustable composite score.
+
+### Task 6: Free vs Paid Analysis
+
+Compares free and paid applications using available ratings, installation estimates, and pricing information.
+
+## 8. Results and Observations
+
+The dashboard successfully loads the dataset and provides six interactive analytical modules. Users can apply filters and explore different aspects of the application data.
+
+The analysis supports exploration of rating distributions, app size outliers, category differences, update activity, and free-versus-paid applications.
+
+Specific observations depend on the filters selected and the charts displayed in the dashboard.
+
+## 9. Limitations
+
+* The dataset does not contain country-level information.
+* It does not provide actual historical monthly installation records.
+* Monthly trend charts therefore represent application update activity, not actual monthly installs.
+* Revenue calculations based on installs and price are estimates, not verified revenue.
+* Observed relationships in the dataset do not necessarily establish causation.
+
+## 10. Conclusion
+
+This project demonstrates how Python, Pandas, NumPy, Plotly, and Streamlit can be used to develop an interactive data analytics dashboard. The dashboard brings multiple analytical views together and makes it easier to explore application characteristics and trends.
+
+## 11. Future Enhancements
+
+* Integrate updated application data.
+* Add more detailed data-quality checks.
+* Include verified country-level and historical data when available.
+* Improve filtering and comparison options.
+* Deploy the dashboard online for public access.
+
+## 12. Project Deliverable
+
+An interactive Streamlit dashboard containing six analytical modules for exploring Google Play Store application data.
