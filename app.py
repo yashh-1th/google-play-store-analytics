@@ -780,7 +780,7 @@ with tabs[3]:
 
         overall = (
             overall.set_index("Month_Date")
-            .reindex(full_months, fill_value=0)
+            .reindex(full_months)
             .rename_axis("Month_Date")
             .reset_index()
         )
